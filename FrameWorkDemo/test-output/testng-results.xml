@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100760" started-at="2019-05-05T08:21:24Z" finished-at="2019-05-05T08:23:05Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="98594" started-at="2019-05-05T08:21:24Z" finished-at="2019-05-05T08:23:02Z">
+      <class name="tests.GoogleHomePageTest1">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="setup" is-config="true" duration-ms="7545" started-at="2019-05-05T08:21:25Z" finished-at="2019-05-05T08:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="run1" duration-ms="50017" started-at="2019-05-05T08:21:32Z" data-provider="testData" finished-at="2019-05-05T08:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="closeBrowser" is-config="true" duration-ms="1195" started-at="2019-05-05T08:22:22Z" finished-at="2019-05-05T08:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="setup" is-config="true" duration-ms="19990" started-at="2019-05-05T08:22:23Z" finished-at="2019-05-05T08:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="run1" duration-ms="7413" started-at="2019-05-05T08:22:43Z" data-provider="testData" finished-at="2019-05-05T08:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="closeBrowser" is-config="true" duration-ms="266" started-at="2019-05-05T08:22:51Z" finished-at="2019-05-05T08:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="setup" is-config="true" duration-ms="6071" started-at="2019-05-05T08:22:51Z" finished-at="2019-05-05T08:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="run1" duration-ms="4999" started-at="2019-05-05T08:22:57Z" data-provider="testData" finished-at="2019-05-05T08:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium - Web Browser Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest1@1e397ed7]" name="closeBrowser" is-config="true" duration-ms="389" started-at="2019-05-05T08:23:02Z" finished-at="2019-05-05T08:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.GoogleHomePageTest1 -->
+    </test> <!-- Test1 -->
+    <test name="Test" duration-ms="99247" started-at="2019-05-05T08:21:24Z" finished-at="2019-05-05T08:23:03Z">
+      <class name="tests.GoogleHomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="setup" is-config="true" duration-ms="7566" started-at="2019-05-05T08:21:25Z" finished-at="2019-05-05T08:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="run1" duration-ms="66838" started-at="2019-05-05T08:21:32Z" data-provider="testData" finished-at="2019-05-05T08:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="closeBrowser" is-config="true" duration-ms="2112" started-at="2019-05-05T08:22:39Z" finished-at="2019-05-05T08:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="setup" is-config="true" duration-ms="4542" started-at="2019-05-05T08:22:41Z" finished-at="2019-05-05T08:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="run1" duration-ms="5153" started-at="2019-05-05T08:22:46Z" data-provider="testData" finished-at="2019-05-05T08:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="closeBrowser" is-config="true" duration-ms="2779" started-at="2019-05-05T08:22:51Z" finished-at="2019-05-05T08:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="setup" is-config="true" duration-ms="5059" started-at="2019-05-05T08:22:54Z" finished-at="2019-05-05T08:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="run1" duration-ms="4212" started-at="2019-05-05T08:22:59Z" data-provider="testData" finished-at="2019-05-05T08:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium - Web Browser Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest@5442a311]" name="closeBrowser" is-config="true" duration-ms="278" started-at="2019-05-05T08:23:03Z" finished-at="2019-05-05T08:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.GoogleHomePageTest -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="100760" started-at="2019-05-05T08:21:24Z" finished-at="2019-05-05T08:23:05Z">
+      <class name="tests.GoogleHomePageTest2">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="setup" is-config="true" duration-ms="7560" started-at="2019-05-05T08:21:25Z" finished-at="2019-05-05T08:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="run1" duration-ms="50062" started-at="2019-05-05T08:21:32Z" data-provider="testData" finished-at="2019-05-05T08:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="closeBrowser" is-config="true" duration-ms="1135" started-at="2019-05-05T08:22:22Z" finished-at="2019-05-05T08:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="setup" is-config="true" duration-ms="19832" started-at="2019-05-05T08:22:23Z" finished-at="2019-05-05T08:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="run1" duration-ms="7634" started-at="2019-05-05T08:22:43Z" data-provider="testData" finished-at="2019-05-05T08:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="closeBrowser" is-config="true" duration-ms="531" started-at="2019-05-05T08:22:51Z" finished-at="2019-05-05T08:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="setup" is-config="true" duration-ms="5783" started-at="2019-05-05T08:22:51Z" finished-at="2019-05-05T08:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run1(java.lang.String, java.lang.String)[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="run1" duration-ms="5059" started-at="2019-05-05T08:22:57Z" data-provider="testData" finished-at="2019-05-05T08:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium - Web Browser Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GoogleHomePageTest2@5cb9f472]" name="closeBrowser" is-config="true" duration-ms="2439" started-at="2019-05-05T08:23:02Z" finished-at="2019-05-05T08:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.GoogleHomePageTest2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

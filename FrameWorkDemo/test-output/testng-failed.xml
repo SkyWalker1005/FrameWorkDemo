@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="webSite" value="https://www.google.co.in"/>
+  <parameter name="browserName" value="chrome"/>
+  <test thread-count="3" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="tests.GoogleHomePageTest2">
+        <methods>
+          <include name="setup"/>
+          <include name="run1" invocation-numbers="0 1 2"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.GoogleHomePageTest2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="3" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="tests.GoogleHomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="run1" invocation-numbers="0 1 2"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.GoogleHomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="3" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="tests.GoogleHomePageTest1">
+        <methods>
+          <include name="setup"/>
+          <include name="run1" invocation-numbers="0 1 2"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.GoogleHomePageTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
